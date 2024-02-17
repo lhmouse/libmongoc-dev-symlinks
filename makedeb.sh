@@ -19,4 +19,4 @@ ln -s libmongoc-1.0/mongoc ${_tempdir}/usr/local/include/mongoc
 sed -i "s/{_pkgname}/${_pkgname}/" ${_tempdir}/DEBIAN/control
 sed -i "s/{_pkgversion}/${_pkgversion}/" ${_tempdir}/DEBIAN/control
 
-dpkg-deb --root-owner-group --build .makedeb "${_pkgname}_${_pkgversion}_${_pkgarch}.deb"
+dpkg-deb --root-owner-group --build .makedeb "${_pkgname}_${_pkgversion}.deb"
