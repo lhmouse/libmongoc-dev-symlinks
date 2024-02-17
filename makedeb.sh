@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-_pkgname=libmogoc-dev-symlinks
+_pkgname=libmongoc-dev-symlinks
 _pkgversion=$(git describe --tag | sed 's/^[^0-9]//')
 _tempdir=$(readlink -f "./.makedeb")
 
