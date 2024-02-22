@@ -1,0 +1,11 @@
+Package: {_pkgname}
+Version: {_pkgversion}
+Architecture: all
+Multi-Arch: foreign
+Priority: optional
+Section: misc
+Maintainer: LIU Hao <lh_mouse@126.com>
+Provides: libmongoc-dev-symlinks
+Description: Create symlinks for libbson and libmongoc header directories, so they can be used without `pkgconf`
+Depends: libmongoc-dev
+Homepage: https://github.com/lhmouse/libmongoc-dev-symlinks
