@@ -1,0 +1,8 @@
+.*
+*.rej
+*.orig
+*.save*
+*.swp
+*.deb
+*.log
+!/.github
